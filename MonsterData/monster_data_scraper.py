@@ -43,8 +43,9 @@ def main():
             print(f"Completed {monster_name}")
             sleep(1)
 
-    for part in monster_parts:
-        print(part)
+    with open("output.txt", 'w') as file:
+        for part in monster_parts:
+            file.write(part)
 
 
 def get_parts_data(monster_name):
@@ -56,6 +57,7 @@ def get_parts_data(monster_name):
 
     average_HZV = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     number_parts = 0
+    part_name = ""
     
     try:
         for mon in data:
@@ -63,7 +65,11 @@ def get_parts_data(monster_name):
             if 'BreakLevel' in monster_part_name or 'PermitDamageAttr' in monster_part_name:
                 break
 
-            part_name = re.search('([A-Z])\w+', monster_part_name)[0]
+            if 'Bishaten' in monster_name and 'Body' in part_name:
+                part_name = 'Foreleg'
+            else:
+                part_name = re.search('([A-Z])\w+', monster_part_name)[0]
+            
             hit_zone_value = re.findall('> (\d*)<', monster_part_name)
             monster_parts.append(MonsterPart(monster_name, part_name, \
                 int(hit_zone_value[0]), int(hit_zone_value[1]), int(hit_zone_value[2]), int(hit_zone_value[3]), int(hit_zone_value[4]), \
@@ -71,8 +77,27 @@ def get_parts_data(monster_name):
             number_parts += 1
             for val in range(10):
                 average_HZV[val] += int(hit_zone_value[val])
+
+            if 'Arzuros' in monster_name and 'Abdomen' in part_name:
+                break
+
+            if 'Magnamalo' in monster_name and 'Tailblade' in part_name:
+                monster_parts.append(MonsterPart(monster_name, "Wrist ghost", \
+                    0, 48, 48, 45, 0, 10, 0, 15, 0, 0))
+                monster_parts.append(MonsterPart(monster_name, "Gas pool", \
+                    0, 63, 63, 50, 0, 5, 5, 10, 0, 0))
+                monster_parts.append(MonsterPart(monster_name, "Face demon fire", \
+                    0, 60, 60, 45, 0, 10, 5, 15, 0, 100))
+                wrist_ghost = [0, 48, 48, 45, 0, 10, 0, 15, 0, 0]
+                gas_pool = [0, 63, 63, 50, 0, 5, 5, 10, 0, 0]
+                face_demon_fire = [0, 60, 60, 45, 0, 10, 5, 15, 0, 100]
+                average_HZV = list(map(sum, zip(average_HZV, wrist_ghost, gas_pool, face_demon_fire)))
+                number_parts += 3
+                break
+            
     except UnicodeEncodeError:
         pass
+    
     
     monster_parts.append(MonsterPart(monster_name, 'Average', \
                 int(average_HZV[0])//number_parts, int(average_HZV[1])//number_parts, int(average_HZV[2])//number_parts, int(average_HZV[3])//number_parts, int(average_HZV[4])//number_parts, \
