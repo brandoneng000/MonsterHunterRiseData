@@ -43,9 +43,9 @@ def main():
             print(f"Completed {monster_name}")
             sleep(1)
 
-    with open("output.txt", 'w') as file:
+    with open("monster_hzv.csv", 'w') as file:
         for part in monster_parts:
-            file.write(part)
+            file.write(str(part) + '\n')
 
 
 def get_parts_data(monster_name):
@@ -64,9 +64,15 @@ def get_parts_data(monster_name):
             monster_part_name = str(mon)
             if 'BreakLevel' in monster_part_name or 'PermitDamageAttr' in monster_part_name:
                 break
-
+            
             if 'Bishaten' in monster_name and 'Body' in part_name:
                 part_name = 'Foreleg'
+            elif 'Somnacanth' in monster_name and 'Leg' in part_name:
+                part_name = re.search('([A-Z])\w+ \w+', monster_part_name)[0]
+            elif 'Rakna-Kadaki' in monster_name and 'Claw' in part_name:
+                part_name = '???'
+            elif 'Goss Harag' in monster_name and (('Body' in part_name and int(hit_zone_value[0]) == 1) or '???' in part_name):
+                part_name = '???'
             else:
                 part_name = re.search('([A-Z])\w+', monster_part_name)[0]
             
@@ -79,6 +85,9 @@ def get_parts_data(monster_name):
                 average_HZV[val] += int(hit_zone_value[val])
 
             if 'Arzuros' in monster_name and 'Abdomen' in part_name:
+                break
+
+            if 'Somnacanth' in monster_name and 'Head Fin' in part_name:
                 break
 
             if 'Magnamalo' in monster_name and 'Tailblade' in part_name:
@@ -94,6 +103,7 @@ def get_parts_data(monster_name):
                 average_HZV = list(map(sum, zip(average_HZV, wrist_ghost, gas_pool, face_demon_fire)))
                 number_parts += 3
                 break
+
             
     except UnicodeEncodeError:
         pass
