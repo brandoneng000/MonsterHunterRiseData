@@ -35,7 +35,16 @@ def main():
     
     sleep(1)
 
-    get_parts_data('Rathian')
+    with open("Large Monster List.txt") as file:
+        for name in file:
+            monster_name = name.rstrip("\n")
+            print(f"Starting {monster_name}")
+            get_parts_data(monster_name)
+            print(f"Completed {monster_name}")
+            sleep(1)
+
+    for part in monster_parts:
+        print(part)
 
 
 def get_parts_data(monster_name):
@@ -50,21 +59,24 @@ def get_parts_data(monster_name):
     
     try:
         for mon in data:
-            monster_part = str(mon)
-            if 'BreakLevel' in monster_part:
+            monster_part_name = str(mon)
+            if 'BreakLevel' in monster_part_name or 'PermitDamageAttr' in monster_part_name:
                 break
 
-            part_name = re.search('([A-Z])\w+', monster_part)[0]
-            HZV = re.findall('> (\d*)<', monster_part)
-            print(HZV)
+            part_name = re.search('([A-Z])\w+', monster_part_name)[0]
+            hit_zone_value = re.findall('> (\d*)<', monster_part_name)
+            monster_parts.append(MonsterPart(monster_name, part_name, \
+                int(hit_zone_value[0]), int(hit_zone_value[1]), int(hit_zone_value[2]), int(hit_zone_value[3]), int(hit_zone_value[4]), \
+                int(hit_zone_value[5]), int(hit_zone_value[6]), int(hit_zone_value[7]), int(hit_zone_value[8]), int(hit_zone_value[9])))
             number_parts += 1
-            
-            break
-            
+            for val in range(10):
+                average_HZV[val] += int(hit_zone_value[val])
     except UnicodeEncodeError:
         pass
-
     
+    monster_parts.append(MonsterPart(monster_name, 'Average', \
+                int(average_HZV[0])//number_parts, int(average_HZV[1])//number_parts, int(average_HZV[2])//number_parts, int(average_HZV[3])//number_parts, int(average_HZV[4])//number_parts, \
+                int(average_HZV[5])//number_parts, int(average_HZV[6])//number_parts, int(average_HZV[7])//number_parts, int(average_HZV[8])//number_parts, int(average_HZV[9])//number_parts))
 
 def get_kiranico_id():
     page = requests.get(URL)
