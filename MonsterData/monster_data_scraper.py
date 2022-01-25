@@ -6,11 +6,11 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-URL = "https://mhrise.kiranico.com/data/monsters"
+URL = "https://mhrise.kiranico.com/data/monsters/"
 large_monsters = {}
+monster_parts = []
 
 class MonsterPart:
-
     def __init__(self, monster_name, part_name, state, sever, impact, ammo, fire, water, ice, thunder, dragon, stun) -> None:
         self.monster_name = monster_name
         self.part_name = part_name
@@ -33,10 +33,38 @@ class MonsterPart:
 def main():
     get_kiranico_id()
     
-    # sleep(1)
+    sleep(1)
 
-    limb = MonsterPart("Rathian", "wing", 0, 50, 50, 50, 50, 50, 50, 50, 50, 70)
-    print(limb)
+    get_parts_data('Rathian')
+
+
+def get_parts_data(monster_name):
+    monster_kiranico_URL = URL + str(large_monsters[monster_name])
+    page = requests.get(monster_kiranico_URL)
+
+    soup = BeautifulSoup(page.text, "html.parser")
+    data = soup.find_all("tr", class_="bg-white")
+
+    average_HZV = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    number_parts = 0
+    
+    try:
+        for mon in data:
+            monster_part = str(mon)
+            if 'BreakLevel' in monster_part:
+                break
+
+            part_name = re.search('([A-Z])\w+', monster_part)[0]
+            HZV = re.findall('> (\d*)<', monster_part)
+            print(HZV)
+            number_parts += 1
+            
+            break
+            
+    except UnicodeEncodeError:
+        pass
+
+    
 
 def get_kiranico_id():
     page = requests.get(URL)
