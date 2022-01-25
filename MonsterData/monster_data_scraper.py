@@ -67,14 +67,13 @@ def get_parts_data(monster_name):
             
             if 'Bishaten' in monster_name and 'Body' in part_name:
                 part_name = 'Foreleg'
-            elif 'Somnacanth' in monster_name and 'Leg' in part_name:
-                part_name = re.search('([A-Z])\w+ \w+', monster_part_name)[0]
             elif 'Rakna-Kadaki' in monster_name and 'Claw' in part_name:
                 part_name = '???'
             elif 'Goss Harag' in monster_name and (('Body' in part_name and int(hit_zone_value[0]) == 1) or '???' in part_name):
                 part_name = '???'
             else:
-                part_name = re.search('([A-Z])\w+', monster_part_name)[0]
+                part_name = monster_part_name.replace('<tr class="bg-white"><td class="text-left px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"> ', "")[:30]
+                part_name = part_name.split("</td>")[0]
             
             hit_zone_value = re.findall('> (\d*)<', monster_part_name)
             monster_parts.append(MonsterPart(monster_name, part_name, \
@@ -103,7 +102,6 @@ def get_parts_data(monster_name):
                 average_HZV = list(map(sum, zip(average_HZV, wrist_ghost, gas_pool, face_demon_fire)))
                 number_parts += 3
                 break
-
             
     except UnicodeEncodeError:
         pass
