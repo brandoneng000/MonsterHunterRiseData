@@ -35,7 +35,7 @@ def main():
     
     sleep(1)
 
-    with open("Large Monster List.txt") as file:
+    with open("large_monster_list.csv") as file:
         for name in file:
             monster_name = name.rstrip("\n")
             print(f"Starting {monster_name}")
@@ -119,7 +119,7 @@ def get_kiranico_id():
 
     monster_kiranico_data = [monster_URL.parent.parent for monster_URL in monster_URL_list]
 
-    with open("Large Monster List.txt") as file:
+    with open("large_monster_list.csv") as file:
         large_monster_names = file.readlines()
         for large_monster_name in large_monster_names:
             large_monster_name = large_monster_name.strip()
