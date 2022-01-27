@@ -1,0 +1,627 @@
+Rathian,Head,0,70,75,65,0,15,15,20,30,100
+Rathian,Neck,0,40,45,35,0,0,0,5,15,0
+Rathian,Body,0,35,30,25,0,5,5,10,20,0
+Rathian,Back,0,35,30,25,0,5,5,10,20,0
+Rathian,Wing,0,45,45,35,0,10,10,15,25,0
+Rathian,Leg,0,40,40,35,0,0,0,5,15,0
+Rathian,Tail,0,45,40,35,0,5,5,10,20,0
+Rathian,Average,0,44,43,36,0,5,5,10,20,14
+Apex Rathian,Head,0,60,65,50,0,10,10,10,20,100
+Apex Rathian,Head,1,65,70,55,0,10,10,10,25,100
+Apex Rathian,Neck,0,40,40,30,5,10,10,10,20,0
+Apex Rathian,Body,0,24,24,20,0,5,5,15,15,0
+Apex Rathian,Back,0,20,20,15,5,10,10,20,25,0
+Apex Rathian,Back,1,38,38,45,5,10,10,20,25,0
+Apex Rathian,Wing,0,35,35,30,0,10,10,20,25,0
+Apex Rathian,Leg,0,24,24,20,0,5,5,10,15,0
+Apex Rathian,Tail,0,40,35,30,5,5,5,10,15,0
+Apex Rathian,Tail,1,45,40,35,5,5,5,10,20,0
+Apex Rathian,Tail,2,50,45,45,0,5,5,10,20,0
+Apex Rathian,Average,0,40,39,34,2,7,7,13,20,18
+Rathalos,Head,0,65,70,60,0,15,15,20,30,100
+Rathalos,Neck,0,35,40,30,0,5,5,10,20,0
+Rathalos,Back,0,25,25,20,0,5,5,10,20,0
+Rathalos,Abdomen,0,25,25,20,0,5,5,10,20,0
+Rathalos,Tail,0,45,40,35,0,5,5,10,20,0
+Rathalos,Wing,0,50,45,40,0,10,10,15,25,0
+Rathalos,Leg,0,35,35,30,0,0,0,5,15,0
+Rathalos,Average,0,40,40,33,0,6,6,11,21,14
+Apex Rathalos,Head,0,55,55,30,0,5,5,10,20,100
+Apex Rathalos,Head,1,80,80,45,0,10,10,10,20,100
+Apex Rathalos,Neck,0,38,38,20,5,10,10,15,15,0
+Apex Rathalos,Neck,1,75,75,47,5,10,10,15,15,0
+Apex Rathalos,Back,0,21,21,45,0,5,5,8,10,0
+Apex Rathalos,Back,1,21,21,45,0,5,5,8,10,0
+Apex Rathalos,Abdomen,0,24,24,10,0,5,5,8,10,0
+Apex Rathalos,Abdomen,1,24,24,10,0,5,5,8,10,0
+Apex Rathalos,Tail,0,45,35,20,5,5,5,10,15,0
+Apex Rathalos,Tail,1,45,35,20,5,5,5,10,15,0
+Apex Rathalos,Wing,0,30,45,10,0,10,10,20,25,0
+Apex Rathalos,Wing,1,30,45,10,0,10,10,20,25,0
+Apex Rathalos,Leg,0,30,30,20,0,5,5,10,15,0
+Apex Rathalos,Leg,1,30,30,20,0,5,5,10,15,0
+Apex Rathalos,Average,0,39,39,25,1,6,6,11,15,14
+Khezu,Head,0,75,70,80,30,5,5,0,5,100
+Khezu,Neck,0,75,50,50,25,5,5,0,5,0
+Khezu,Torso,0,45,45,25,25,5,5,0,5,0
+Khezu,Tail,0,20,20,30,20,5,5,0,5,0
+Khezu,Wing,0,25,25,25,20,5,5,0,5,0
+Khezu,Left Leg,0,36,20,35,15,5,5,0,5,0
+Khezu,Left Leg,1,46,30,45,17,5,5,0,5,0
+Khezu,Right Leg,0,36,20,35,15,5,5,0,5,0
+Khezu,Right Leg,1,46,30,45,17,5,5,0,5,0
+Khezu,Average,0,44,34,41,20,5,5,0,5,11
+Basarios,Head,0,20,20,20,10,15,10,10,18,100
+Basarios,Head,1,48,55,48,15,20,10,10,23,100
+Basarios,Head,2,38,43,35,15,20,10,10,23,100
+Basarios,Head,3,48,55,48,15,20,10,10,23,100
+Basarios,Lower Neck,0,15,20,20,10,15,10,10,18,0
+Basarios,Lower Neck,1,15,20,20,10,15,10,10,18,0
+Basarios,Lower Neck,2,15,20,20,10,15,10,10,18,0
+Basarios,Back,0,15,20,20,10,15,10,10,18,0
+Basarios,Back,1,48,48,55,15,20,10,10,23,0
+Basarios,Back,2,38,35,43,15,20,10,10,23,0
+Basarios,Back,3,48,48,55,15,20,10,10,23,0
+Basarios,Abdomen,0,24,25,30,10,10,10,10,15,0
+Basarios,Abdomen,1,60,55,50,12,18,10,10,20,0
+Basarios,Abdomen,2,48,44,40,12,18,10,10,20,0
+Basarios,Abdomen,3,62,55,50,12,18,10,10,20,0
+Basarios,Lower Tail,0,15,15,15,10,15,10,10,18,0
+Basarios,Lower Tail,1,15,15,15,10,15,10,10,18,0
+Basarios,Lower Tail,2,15,15,15,10,15,10,10,18,0
+Basarios,Wing,0,20,20,20,10,15,10,10,18,0
+Basarios,Wing,1,20,20,20,10,15,10,10,18,0
+Basarios,Wing,2,20,20,20,10,15,10,10,18,0
+Basarios,Leg,0,25,26,30,10,10,10,10,10,0
+Basarios,Leg,1,25,26,30,10,10,10,10,10,0
+Basarios,Leg,2,25,26,30,10,10,10,10,10,0
+Basarios,Tail Tip,0,28,15,15,10,10,10,10,15,0
+Basarios,Tail Tip,1,28,15,15,10,10,10,10,15,0
+Basarios,Tail Tip,2,28,15,15,10,10,10,10,15,0
+Basarios,Average,1,29,29,29,11,15,10,10,18,14
+Diablos,Horn,0,21,42,20,0,20,25,10,20,100
+Diablos,Head,0,45,60,40,0,15,25,10,15,100
+Diablos,Neck,0,40,40,25,0,15,20,5,15,0
+Diablos,Abdomen,0,65,70,40,0,25,30,10,25,0
+Diablos,Back,0,25,42,35,0,20,25,10,20,0
+Diablos,Wing,0,40,30,60,0,25,30,10,25,0
+Diablos,Leg,0,35,35,35,0,10,15,5,10,0
+Diablos,Tail,0,50,24,45,0,20,15,10,20,0
+Diablos,Tail Tip,0,23,26,10,0,20,25,10,20,0
+Diablos,Average,0,38,41,34,0,18,23,8,18,22
+Apex Diablos,Horn,0,35,45,10,0,15,25,10,15,100
+Apex Diablos,Horn,1,57,57,15,0,15,25,10,15,100
+Apex Diablos,Head,0,45,45,45,0,15,25,10,15,100
+Apex Diablos,Head,1,63,63,47,0,15,25,10,15,100
+Apex Diablos,Neck,0,40,45,20,0,8,10,5,5,0
+Apex Diablos,Neck,1,50,50,25,0,8,10,5,5,0
+Apex Diablos,Abdomen,0,38,38,15,0,10,10,5,10,0
+Apex Diablos,Abdomen,1,38,38,15,0,10,10,5,10,0
+Apex Diablos,Back,0,25,25,10,0,5,10,5,5,0
+Apex Diablos,Back,1,25,25,10,0,5,10,5,5,0
+Apex Diablos,Wing,0,30,30,20,0,5,10,5,5,0
+Apex Diablos,Wing,1,30,30,20,0,5,10,5,5,0
+Apex Diablos,Leg,0,28,28,25,0,10,15,5,10,0
+Apex Diablos,Leg,1,28,28,25,0,10,15,5,10,0
+Apex Diablos,Tail,0,50,24,20,0,10,15,10,10,0
+Apex Diablos,Tail,1,50,24,20,0,10,15,10,10,0
+Apex Diablos,Tail Tip,0,45,24,10,0,25,30,10,20,0
+Apex Diablos,Tail Tip,1,45,24,10,0,25,30,10,20,0
+Apex Diablos,Average,0,40,35,20,0,11,16,7,10,22
+Rajang,Head,0,65,67,55,0,5,30,0,0,100
+Rajang,Torso,0,45,45,35,0,5,15,0,0,0
+Rajang,Foreleg,0,45,45,40,0,5,15,0,0,0
+Rajang,Foreleg,1,10,10,5,0,5,15,0,0,0
+Rajang,Hind Leg,0,35,35,15,0,5,15,0,0,0
+Rajang,Tail,0,35,32,25,0,5,15,0,0,0
+Rajang,Tail,1,65,65,55,0,5,25,0,0,0
+Rajang,Average,0,42,42,32,0,5,18,0,0,14
+Kushala Daora,Head,0,60,55,35,10,5,0,15,10,100
+Kushala Daora,Neck,0,40,35,25,10,5,0,15,5,0
+Kushala Daora,Abdomen,0,35,50,35,10,5,0,15,10,0
+Kushala Daora,Back,0,23,25,30,10,5,0,15,10,0
+Kushala Daora,Tail,0,35,30,35,10,5,0,20,15,0
+Kushala Daora,Foreleg,0,45,50,45,10,5,0,20,10,0
+Kushala Daora,Hind Leg,0,30,30,25,10,5,0,15,5,0
+Kushala Daora,Wing,0,23,23,20,10,5,0,20,15,0
+Kushala Daora,Average,0,36,37,31,10,5,0,16,10,12
+Chameleos,Head,0,55,50,45,25,0,0,10,20,100
+Chameleos,Head,1,55,50,60,25,0,0,10,20,100
+Chameleos,Wing,0,22,22,20,20,0,0,10,15,0
+Chameleos,Wing,1,22,22,15,20,0,0,10,15,0
+Chameleos,Back,0,25,22,25,25,0,0,10,20,0
+Chameleos,Back,1,25,22,15,25,0,0,10,20,0
+Chameleos,Abdomen,0,25,30,22,20,5,0,10,15,0
+Chameleos,Abdomen,1,45,45,10,20,5,0,10,15,0
+Chameleos,Foreleg,0,45,45,20,20,0,0,10,10,0
+Chameleos,Foreleg,1,45,45,10,25,0,0,10,10,0
+Chameleos,Hind Leg,0,30,25,20,25,0,0,10,20,0
+Chameleos,Hind Leg,1,30,25,10,25,0,0,10,20,0
+Chameleos,Tail,0,35,22,45,10,0,0,10,5,0
+Chameleos,Tail,1,35,22,45,10,0,0,10,5,0
+Chameleos,Average,0,35,31,25,21,0,0,10,15,14
+Teostra,Head,0,50,55,45,0,20,15,10,10,100
+Teostra,Head,1,50,55,45,0,20,15,10,10,100
+Teostra,Head,2,50,55,45,0,15,20,10,10,100
+Teostra,Neck,0,33,38,5,0,10,10,5,5,0
+Teostra,Neck,1,33,38,5,0,10,10,5,5,0
+Teostra,Neck,2,33,38,5,0,10,10,5,5,0
+Teostra,Abdomen,0,24,24,10,0,5,5,0,0,0
+Teostra,Abdomen,1,24,24,10,0,5,5,0,0,0
+Teostra,Abdomen,2,24,24,10,0,5,5,0,0,0
+Teostra,Back,0,24,24,5,0,5,5,0,0,0
+Teostra,Back,1,24,24,5,0,5,5,0,0,0
+Teostra,Back,2,24,24,5,0,5,5,0,0,0
+Teostra,Foreleg,0,38,38,15,0,25,20,10,10,0
+Teostra,Foreleg,1,38,38,15,0,25,20,10,10,0
+Teostra,Foreleg,2,38,38,15,0,20,25,10,10,0
+Teostra,Hind Leg,0,30,25,20,0,15,10,5,5,0
+Teostra,Hind Leg,1,30,25,20,0,15,10,5,5,0
+Teostra,Hind Leg,2,30,25,20,0,10,15,5,5,0
+Teostra,Wing,0,40,35,15,0,10,5,0,0,0
+Teostra,Wing,1,40,35,15,0,10,5,0,0,0
+Teostra,Wing,2,40,35,15,0,5,10,0,0,0
+Teostra,Tail,0,43,33,38,0,20,15,5,5,0
+Teostra,Tail,1,43,33,38,0,20,15,5,5,0
+Teostra,Tail,2,43,33,38,0,15,20,5,5,0
+Teostra,Average,1,35,34,19,0,12,11,4,4,12
+Tigrex,Head,0,65,70,55,0,10,5,25,15,100
+Tigrex,Back,0,25,25,20,0,5,5,15,15,0
+Tigrex,Abdomen,0,30,30,20,10,10,5,15,15,0
+Tigrex,Foreleg,0,50,45,35,0,15,10,20,5,0
+Tigrex,Leg,0,30,30,25,0,5,0,15,10,0
+Tigrex,Tail Base,0,40,35,30,0,5,0,10,5,0
+Tigrex,Tail Tip,0,45,35,30,0,5,0,10,15,0
+Tigrex,Average,0,40,38,30,1,7,3,15,11,14
+Nargacuga,Head,0,65,70,40,15,0,10,25,10,100
+Nargacuga,Head,1,67,72,42,20,10,15,30,15,100
+Nargacuga,Neck/Back,0,30,30,35,10,0,5,15,5,0
+Nargacuga,Abdomen,0,40,40,30,10,0,5,20,5,0
+Nargacuga,Cutwing,0,21,24,21,25,5,10,35,15,0
+Nargacuga,Foreleg,0,43,43,35,10,0,0,20,5,0
+Nargacuga,Hind Leg,0,30,30,25,10,0,5,15,5,0
+Nargacuga,Tail,0,46,40,45,10,0,5,25,5,0
+Nargacuga,Tail,1,55,35,40,10,0,0,15,5,0
+Nargacuga,Tail Tip,0,40,35,40,10,0,5,20,5,0
+Nargacuga,Tail Tip,1,45,36,42,15,5,10,30,10,0
+Nargacuga,Average,0,43,41,35,13,1,6,22,7,18
+Barioth,Head,0,65,70,55,20,10,0,15,15,100
+Barioth,Neck/Back,0,30,30,25,5,5,0,5,5,0
+Barioth,Abdomen,0,38,38,25,10,0,0,5,5,0
+Barioth,Thorns,0,25,35,25,30,5,0,25,10,0
+Barioth,Thorns,1,30,35,30,20,5,0,15,10,0
+Barioth,Wing,0,30,45,20,10,0,0,5,5,0
+Barioth,Hind Leg,0,40,45,35,15,0,0,10,5,0
+Barioth,Foreleg,0,30,30,25,5,5,0,5,5,0
+Barioth,Tail,0,45,23,45,10,0,0,5,5,0
+Barioth,Tail Tip,0,60,40,40,15,0,0,10,5,0
+Barioth,Average,0,39,39,32,14,3,0,10,7,10
+Barroth,Head,0,22,25,15,40,0,20,0,10,100
+Barroth,Head,1,22,25,15,0,50,20,0,0,100
+Barroth,Torso,0,36,45,35,25,0,10,0,5,0
+Barroth,Torso,1,36,45,35,0,30,10,0,0,0
+Barroth,Foreleg,0,50,55,50,20,0,10,0,5,0
+Barroth,Foreleg,1,45,50,45,0,25,10,0,0,0
+Barroth,Leg,0,36,30,25,20,0,15,0,5,0
+Barroth,Leg,1,36,30,25,0,25,15,0,0,0
+Barroth,Tail,0,47,47,50,25,0,20,0,10,0
+Barroth,Tail,1,42,42,45,0,30,20,0,0,0
+Barroth,Average,0,37,39,34,13,16,15,0,3,20
+Royal Ludroth,Head,0,50,55,65,30,0,5,5,5,100
+Royal Ludroth,Abdomen,0,50,40,35,30,0,10,10,0,0
+Royal Ludroth,Mane,0,65,50,35,30,0,10,15,0,0
+Royal Ludroth,Back,0,30,45,35,30,0,5,10,5,0
+Royal Ludroth,Foreleg,0,24,40,25,20,0,10,10,0,0
+Royal Ludroth,Hind Leg,0,30,24,30,20,0,5,10,0,0
+Royal Ludroth,Tail,0,40,30,40,25,0,5,5,0,0
+Royal Ludroth,Average,0,41,40,37,26,0,7,9,1,14
+Great Baggi,Head,0,75,65,60,40,20,0,20,0,100
+Great Baggi,Torso,0,50,50,40,40,20,0,20,0,0
+Great Baggi,Average,0,62,57,50,40,20,0,20,0,50
+Zinogre,Head,0,65,65,70,10,10,15,0,5,100
+Zinogre,Head,1,65,65,70,10,10,15,0,10,120
+Zinogre,Body,0,25,25,30,5,5,5,0,5,0
+Zinogre,Body,1,30,30,35,5,10,10,0,5,0
+Zinogre,Neck/Back,0,45,40,35,10,20,25,0,5,0
+Zinogre,Neck/Back,1,70,65,55,15,25,30,0,5,0
+Zinogre,Hip,0,44,44,30,5,5,10,0,5,0
+Zinogre,Hip,1,45,45,35,10,10,15,0,5,0
+Zinogre,Foreleg,0,25,30,30,5,5,10,0,5,0
+Zinogre,Foreleg,1,43,46,30,5,5,15,0,5,0
+Zinogre,Hind Leg,0,45,45,35,5,5,10,0,5,0
+Zinogre,Hind Leg,1,50,50,40,10,10,15,0,5,0
+Zinogre,Tail,0,30,25,25,5,5,5,0,5,0
+Zinogre,Tail,1,30,25,25,5,5,5,0,5,0
+Zinogre,Tail Tip,0,21,19,10,10,15,20,0,5,0
+Zinogre,Tail Tip,1,21,19,10,10,15,20,0,5,0
+Zinogre,Average,0,40,39,35,7,10,14,0,5,13
+Apex Zinogre,Head,0,65,65,45,10,10,15,0,5,100
+Apex Zinogre,Head,1,65,65,45,10,10,15,0,10,120
+Apex Zinogre,Head,2,65,65,50,10,10,15,0,10,120
+Apex Zinogre,Body,0,25,25,25,5,5,5,0,5,0
+Apex Zinogre,Body,1,30,30,25,5,10,10,0,5,0
+Apex Zinogre,Body,2,30,30,25,5,10,10,0,5,0
+Apex Zinogre,Neck/Back,0,45,40,35,10,20,25,0,5,0
+Apex Zinogre,Neck/Back,1,70,65,45,15,25,30,0,5,0
+Apex Zinogre,Neck/Back,2,70,65,45,15,25,30,0,5,0
+Apex Zinogre,Hip,0,44,44,20,5,5,10,0,5,0
+Apex Zinogre,Hip,1,35,35,25,10,10,15,0,5,0
+Apex Zinogre,Hip,2,40,40,25,10,10,15,0,5,0
+Apex Zinogre,Foreleg,0,25,30,15,5,5,10,0,5,0
+Apex Zinogre,Foreleg,1,50,50,15,5,5,15,0,5,0
+Apex Zinogre,Foreleg,2,70,70,45,5,5,15,0,5,0
+Apex Zinogre,Hind Leg,0,45,45,15,5,5,10,0,5,0
+Apex Zinogre,Hind Leg,1,35,35,20,10,10,15,0,5,0
+Apex Zinogre,Hind Leg,2,40,40,20,10,10,15,0,5,0
+Apex Zinogre,Tail,0,30,25,20,5,5,5,0,5,0
+Apex Zinogre,Tail,1,30,25,20,5,5,5,0,5,0
+Apex Zinogre,Tail,2,30,25,20,5,5,5,0,5,0
+Apex Zinogre,Tail Tip,0,21,19,10,10,15,20,0,5,0
+Apex Zinogre,Tail Tip,1,21,19,10,10,15,20,0,5,0
+Apex Zinogre,Tail Tip,2,21,19,10,10,15,20,0,5,0
+Apex Zinogre,Average,1,41,40,26,8,10,14,0,5,14
+Great Wroggi,Head,0,75,60,60,0,20,40,5,0,100
+Great Wroggi,Torso,0,50,50,50,0,20,40,5,0,0
+Great Wroggi,Average,0,62,55,55,0,20,40,5,0,50
+Arzuros,Head,0,55,55,55,20,5,15,10,0,100
+Arzuros,Upper Half,0,50,50,62,25,5,15,10,0,0
+Arzuros,Foreleg,0,33,35,28,30,5,20,30,0,0
+Arzuros,Foreleg,1,42,45,36,38,5,20,38,0,0
+Arzuros,Rear,0,66,66,43,15,5,20,10,0,0
+Arzuros,Abdomen/Hind Leg,0,55,55,38,15,5,20,10,0,0
+Arzuros,Average,0,50,51,43,23,5,18,18,0,16
+Apex Arzuros,Head,0,50,45,35,5,0,5,5,0,100
+Apex Arzuros,Upper Half,0,38,38,35,15,0,5,10,0,0
+Apex Arzuros,Foreleg,0,45,45,30,20,0,10,15,0,0
+Apex Arzuros,Foreleg,1,50,50,35,25,0,10,20,0,0
+Apex Arzuros,Foreleg,2,60,60,40,33,0,15,23,0,0
+Apex Arzuros,Foreleg,3,70,70,45,40,0,15,30,0,0
+Apex Arzuros,Rear,0,30,40,30,12,0,20,5,0,0
+Apex Arzuros,Hind Leg,0,38,24,26,5,0,16,5,0,0
+Apex Arzuros,Abdomen,0,38,24,26,5,0,16,5,0,0
+Apex Arzuros,Average,0,46,44,33,17,0,12,13,0,11
+Lagombi,Head,0,45,63,50,30,0,0,20,0,100
+Lagombi,Upper Half,0,44,44,40,30,0,0,15,0,0
+Lagombi,Foreleg,0,30,30,20,10,0,0,5,0,0
+Lagombi,Rear,0,63,50,35,20,0,0,10,0,0
+Lagombi,Abdomen/Hind Leg,0,35,35,20,10,0,0,5,0,0
+Lagombi,Average,0,43,44,33,20,0,0,11,0,20
+Volvidon,Head,0,55,50,45,0,30,20,15,0,100
+Volvidon,Upper Half,0,45,45,35,0,20,15,10,0,0
+Volvidon,Foreleg,0,38,30,30,0,10,5,5,0,0
+Volvidon,Rear,0,30,30,25,0,15,10,10,0,0
+Volvidon,Abdomen/Hind Leg,0,36,36,20,0,10,10,5,0,0
+Volvidon,Body (Spinning),0,75,75,10,0,0,0,0,0,0
+Volvidon,Back,0,45,45,40,0,20,15,10,0,0
+Volvidon,Average,0,46,44,29,0,15,10,7,0,14
+Mizutsune,Head,0,63,63,45,5,0,5,10,8,100
+Mizutsune,Head,1,63,63,45,10,0,5,15,10,100
+Mizutsune,Head,2,63,63,45,5,0,5,10,8,100
+Mizutsune,Head,3,73,73,55,5,0,5,15,8,100
+Mizutsune,Head,4,73,73,55,5,0,5,20,10,100
+Mizutsune,Neck,0,43,43,40,8,0,5,10,8,0
+Mizutsune,Neck,1,43,43,40,8,0,5,10,8,0
+Mizutsune,Neck,2,43,43,40,8,0,5,10,8,0
+Mizutsune,Neck,3,53,53,50,5,0,5,15,8,0
+Mizutsune,Neck,4,53,53,50,5,0,5,15,8,0
+Mizutsune,Left Claw,0,24,24,10,5,0,15,30,30,0
+Mizutsune,Left Claw,1,24,24,10,5,0,15,30,30,0
+Mizutsune,Left Claw,2,28,28,10,5,0,15,30,30,0
+Mizutsune,Left Claw,3,29,29,15,5,0,15,30,30,0
+Mizutsune,Left Claw,4,29,29,15,5,0,15,30,30,0
+Mizutsune,Foreleg,0,28,28,10,5,0,15,25,30,0
+Mizutsune,Foreleg,1,28,28,10,5,0,15,25,30,0
+Mizutsune,Foreleg,2,28,28,10,5,0,15,25,30,0
+Mizutsune,Foreleg,3,33,33,15,5,0,15,25,30,0
+Mizutsune,Foreleg,4,33,33,15,5,0,15,25,30,0
+Mizutsune,Hind Leg,0,38,38,25,5,0,5,10,5,0
+Mizutsune,Hind Leg,1,38,38,25,10,0,5,15,5,0
+Mizutsune,Hind Leg,2,38,38,25,5,0,5,10,5,0
+Mizutsune,Hind Leg,3,43,43,30,5,0,5,15,5,0
+Mizutsune,Hind Leg,4,43,43,30,5,0,5,20,5,0
+Mizutsune,Body,0,25,25,20,5,0,5,10,5,0
+Mizutsune,Body,1,25,25,20,5,0,5,15,5,0
+Mizutsune,Body,2,25,25,20,5,0,5,10,5,0
+Mizutsune,Body,3,30,30,25,5,0,5,15,5,0
+Mizutsune,Body,4,30,30,25,5,0,5,20,5,0
+Mizutsune,Tail,0,43,33,40,5,0,5,10,5,0
+Mizutsune,Tail,1,43,33,40,5,0,5,15,5,0
+Mizutsune,Tail,2,43,33,40,5,0,5,10,5,0
+Mizutsune,Tail,3,53,43,50,5,0,5,10,5,0
+Mizutsune,Tail,4,53,43,50,5,0,5,15,5,0
+Mizutsune,Dorsal Fin,0,43,43,45,8,0,5,15,10,0
+Mizutsune,Dorsal Fin,1,43,43,45,10,0,5,20,15,0
+Mizutsune,Dorsal Fin,2,43,43,45,8,0,5,15,10,0
+Mizutsune,Dorsal Fin,3,48,48,50,5,0,5,20,10,0
+Mizutsune,Dorsal Fin,4,48,48,50,5,0,5,25,15,0
+Mizutsune,Right Claw,0,24,24,10,5,0,15,30,30,0
+Mizutsune,Right Claw,1,24,24,10,5,0,15,30,30,0
+Mizutsune,Right Claw,2,28,28,10,5,0,15,30,30,0
+Mizutsune,Right Claw,3,29,29,15,5,0,15,30,30,0
+Mizutsune,Right Claw,4,29,29,15,5,0,15,30,30,0
+Mizutsune,Average,2,39,38,29,5,0,8,18,14,11
+Apex Mizutsune,Head,0,60,60,25,5,0,5,10,8,100
+Apex Mizutsune,Head,1,65,65,35,10,0,5,15,10,100
+Apex Mizutsune,Head,2,63,63,25,5,0,5,10,8,100
+Apex Mizutsune,Head,3,73,73,25,5,0,5,15,8,100
+Apex Mizutsune,Head,4,73,73,25,5,0,5,20,10,100
+Apex Mizutsune,Neck,0,43,43,15,8,0,5,10,8,0
+Apex Mizutsune,Neck,1,50,50,20,8,0,5,10,8,0
+Apex Mizutsune,Neck,2,43,43,15,8,0,5,10,8,0
+Apex Mizutsune,Neck,3,53,53,15,5,0,5,15,8,0
+Apex Mizutsune,Neck,4,53,53,15,5,0,5,15,8,0
+Apex Mizutsune,Left Claw,0,24,24,10,5,0,15,30,30,0
+Apex Mizutsune,Left Claw,1,24,24,10,5,0,15,30,30,0
+Apex Mizutsune,Left Claw,2,28,28,10,5,0,15,30,30,0
+Apex Mizutsune,Left Claw,3,29,29,15,5,0,15,30,30,0
+Apex Mizutsune,Left Claw,4,29,29,15,5,0,15,30,30,0
+Apex Mizutsune,Foreleg,0,28,28,10,5,0,15,25,30,0
+Apex Mizutsune,Foreleg,1,35,35,10,5,0,15,25,30,0
+Apex Mizutsune,Foreleg,2,28,28,10,5,0,15,25,30,0
+Apex Mizutsune,Foreleg,3,33,33,15,5,0,15,25,30,0
+Apex Mizutsune,Foreleg,4,33,33,15,5,0,15,25,30,0
+Apex Mizutsune,Hind Leg,0,38,38,20,5,0,5,10,5,0
+Apex Mizutsune,Hind Leg,1,43,43,20,10,0,5,15,5,0
+Apex Mizutsune,Hind Leg,2,38,38,20,5,0,5,10,5,0
+Apex Mizutsune,Hind Leg,3,43,43,20,5,0,5,15,5,0
+Apex Mizutsune,Hind Leg,4,43,43,20,5,0,5,20,5,0
+Apex Mizutsune,Body,0,25,25,15,5,0,5,10,5,0
+Apex Mizutsune,Body,1,25,25,20,5,0,5,15,5,0
+Apex Mizutsune,Body,2,25,25,15,5,0,5,10,5,0
+Apex Mizutsune,Body,3,30,30,15,5,0,5,15,5,0
+Apex Mizutsune,Body,4,30,30,15,5,0,5,20,5,0
+Apex Mizutsune,Tail,0,43,33,10,5,0,5,10,5,0
+Apex Mizutsune,Tail,1,73,73,45,5,0,5,15,5,0
+Apex Mizutsune,Tail,2,43,33,10,5,0,5,10,5,0
+Apex Mizutsune,Tail,3,53,43,10,5,0,5,10,5,0
+Apex Mizutsune,Tail,4,53,43,10,5,0,5,15,5,0
+Apex Mizutsune,Dorsal Fin,0,43,43,45,8,0,5,15,10,0
+Apex Mizutsune,Dorsal Fin,1,63,63,45,10,0,5,20,15,0
+Apex Mizutsune,Dorsal Fin,2,43,43,45,8,0,5,15,10,0
+Apex Mizutsune,Dorsal Fin,3,48,48,50,5,0,5,20,10,0
+Apex Mizutsune,Dorsal Fin,4,48,48,50,5,0,5,25,15,0
+Apex Mizutsune,Right Claw,0,24,24,10,5,0,15,30,30,0
+Apex Mizutsune,Right Claw,1,24,24,10,5,0,15,30,30,0
+Apex Mizutsune,Right Claw,2,28,28,10,5,0,15,30,30,0
+Apex Mizutsune,Right Claw,3,29,29,15,5,0,15,30,30,0
+Apex Mizutsune,Right Claw,4,29,29,15,5,0,15,30,30,0
+Apex Mizutsune,Average,2,41,40,19,5,0,8,18,14,11
+Crimson Glow Valstrax,Head,0,55,60,35,25,25,25,25,0,100
+Crimson Glow Valstrax,Head,1,55,60,35,25,25,25,25,0,100
+Crimson Glow Valstrax,Head,2,57,62,35,0,0,0,0,0,100
+Crimson Glow Valstrax,Head,3,57,62,35,0,0,0,0,0,100
+Crimson Glow Valstrax,Neck,0,40,30,15,25,25,25,25,0,0
+Crimson Glow Valstrax,Neck,1,40,30,15,25,25,25,25,0,0
+Crimson Glow Valstrax,Neck,2,40,30,20,0,0,0,0,0,0
+Crimson Glow Valstrax,Neck,3,40,30,20,0,0,0,0,0,0
+Crimson Glow Valstrax,Body,0,30,25,10,20,20,20,20,0,0
+Crimson Glow Valstrax,Body,1,30,25,10,20,20,20,20,0,0
+Crimson Glow Valstrax,Body,2,30,25,10,0,0,0,0,0,0
+Crimson Glow Valstrax,Body,3,30,25,10,0,0,0,0,0,0
+Crimson Glow Valstrax,Wingarm,0,45,45,45,15,15,15,15,0,0
+Crimson Glow Valstrax,Wingarm,1,45,45,45,15,15,15,15,0,0
+Crimson Glow Valstrax,Wingarm,2,45,45,45,15,15,15,15,0,0
+Crimson Glow Valstrax,Wingarm,3,45,45,45,15,15,15,15,0,0
+Crimson Glow Valstrax,Foreleg,0,25,24,25,25,25,25,25,0,0
+Crimson Glow Valstrax,Foreleg,1,25,24,25,25,25,25,25,0,0
+Crimson Glow Valstrax,Foreleg,2,25,24,25,25,25,25,25,0,0
+Crimson Glow Valstrax,Foreleg,3,25,24,25,25,25,25,25,0,0
+Crimson Glow Valstrax,Hind Leg,0,25,24,20,15,15,15,15,0,0
+Crimson Glow Valstrax,Hind Leg,1,25,24,20,15,15,15,15,0,0
+Crimson Glow Valstrax,Hind Leg,2,25,24,40,0,0,0,0,0,0
+Crimson Glow Valstrax,Hind Leg,3,25,24,40,0,0,0,0,0,0
+Crimson Glow Valstrax,Wing,0,22,45,10,25,25,25,25,0,0
+Crimson Glow Valstrax,Wing,1,64,70,45,0,0,0,0,0,0
+Crimson Glow Valstrax,Wing,2,22,45,10,0,0,0,0,0,0
+Crimson Glow Valstrax,Wing,3,64,70,45,0,0,0,0,0,0
+Crimson Glow Valstrax,Tail,0,45,24,20,20,20,20,20,0,0
+Crimson Glow Valstrax,Tail,1,45,24,20,20,20,20,20,0,0
+Crimson Glow Valstrax,Tail,2,45,24,20,0,0,0,0,0,0
+Crimson Glow Valstrax,Tail,3,45,24,20,0,0,0,0,0,0
+Crimson Glow Valstrax,Chest (Windsac),0,80,90,50,15,25,25,20,0,0
+Crimson Glow Valstrax,Chest (Windsac),1,80,90,50,15,25,25,20,0,0
+Crimson Glow Valstrax,Chest (Windsac),2,80,90,50,15,25,25,20,0,0
+Crimson Glow Valstrax,Chest (Windsac),3,80,90,50,15,25,25,20,0,0
+Crimson Glow Valstrax,Chest,0,30,25,10,20,20,20,20,0,0
+Crimson Glow Valstrax,Chest,1,30,25,10,20,20,20,20,0,0
+Crimson Glow Valstrax,Chest,2,30,25,10,0,0,0,0,0,0
+Crimson Glow Valstrax,Chest,3,30,25,10,0,0,0,0,0,0
+Crimson Glow Valstrax,Average,1,41,40,27,12,13,13,12,0,10
+Magnamalo,Head,0,55,55,30,0,15,5,10,0,100
+Magnamalo,Torso,0,25,25,5,0,20,10,15,0,0
+Magnamalo,Foreleg,0,38,38,20,0,20,5,15,0,0
+Magnamalo,Hind Leg,0,38,38,20,0,25,5,20,0,0
+Magnamalo,Tail,0,43,30,10,0,15,5,10,0,0
+Magnamalo,Back,0,30,43,15,0,15,5,10,0,0
+Magnamalo,Armblade,0,45,45,45,0,10,5,10,0,0
+Magnamalo,Tailblade,0,45,45,45,0,10,5,10,0,0
+Magnamalo,Wrist ghost,0,48,48,45,0,10,0,15,0,0
+Magnamalo,Gas pool,0,63,63,50,0,5,5,10,0,0
+Magnamalo,Face demon fire,0,60,60,45,0,10,5,15,0,100
+Magnamalo,Average,0,44,44,30,0,14,5,12,0,18
+Bishaten,Head,0,70,70,60,20,0,25,10,0,100
+Bishaten,Body,0,25,25,30,10,0,15,5,0,0
+Bishaten,Foreleg,0,25,25,30,5,0,10,0,0,0
+Bishaten,Wing,0,40,30,40,5,0,10,5,0,0
+Bishaten,Hind Leg,0,25,30,25,5,0,10,5,0,0
+Bishaten,Tail,0,60,40,40,10,0,20,5,0,0
+Bishaten,Average,0,40,36,37,9,0,15,5,0,16
+Aknosom,Head,0,63,80,50,0,15,5,10,0,100
+Aknosom,Neck,0,43,43,20,0,15,5,15,0,0
+Aknosom,Wing,0,63,50,40,0,20,15,20,0,0
+Aknosom,Torso,0,38,38,20,0,15,5,10,0,0
+Aknosom,Tail,0,43,43,25,0,20,10,15,0,0
+Aknosom,Leg,0,36,36,10,0,35,25,30,0,0
+Aknosom,Crest,0,63,50,40,0,0,0,20,0,100
+Aknosom,Tail Tip,0,36,36,30,0,30,5,20,0,0
+Aknosom,Average,0,48,47,29,0,18,8,17,0,25
+Tetranadon,Head,0,65,70,60,20,0,15,30,10,100
+Tetranadon,Neck,0,50,55,40,10,0,5,20,5,0
+Tetranadon,Body,0,40,40,30,10,0,5,20,0,0
+Tetranadon,Body,1,45,45,35,20,0,10,30,10,0
+Tetranadon,Back,0,25,35,25,5,0,5,10,0,0
+Tetranadon,Foreleg,0,50,45,40,15,0,10,25,5,0
+Tetranadon,Hind Leg,0,35,30,25,5,0,0,15,0,0
+Tetranadon,Tail,0,30,30,25,5,0,0,15,0,0
+Tetranadon,Average,0,42,43,35,11,0,6,20,3,12
+Somnacanth,Head,0,65,55,45,15,0,0,25,0,100
+Somnacanth,Neck,0,70,70,60,15,0,0,25,0,0
+Somnacanth,Back,0,25,25,15,10,0,0,15,0,0
+Somnacanth,Abdomen,0,30,40,20,10,0,0,15,0,0
+Somnacanth,Tail,0,60,55,35,15,0,0,30,0,0
+Somnacanth,Foreleg,0,45,45,35,5,0,0,15,0,0
+Somnacanth,Leg,0,25,30,25,10,0,0,25,0,0
+Somnacanth,Head Fin,0,40,40,20,0,0,0,15,0,25
+Somnacanth,Average,0,45,45,31,10,0,0,20,0,15
+Rakna-Kadaki,Head,0,60,70,45,0,10,20,0,0,100
+Rakna-Kadaki,Claw,0,20,20,10,0,15,30,0,0,0
+Rakna-Kadaki,???,0,25,25,15,0,5,10,0,0,0
+Rakna-Kadaki,Chest,0,25,25,10,0,5,5,0,0,0
+Rakna-Kadaki,Leg (Thread),0,43,43,35,0,0,5,0,0,0
+Rakna-Kadaki,Abdomen,0,35,35,15,0,5,10,0,0,0
+Rakna-Kadaki,Abdomen (Cocooned),0,50,50,28,0,0,5,0,0,0
+Rakna-Kadaki,Leg,0,25,25,15,0,5,15,0,0,0
+Rakna-Kadaki,Claw,0,30,43,20,0,5,20,0,0,0
+Rakna-Kadaki,Average,0,34,37,21,0,5,13,0,0,11
+Almudron,Head,0,55,64,55,20,0,20,10,5,100
+Almudron,Back,0,25,30,20,15,0,10,5,5,0
+Almudron,Abdomen,0,40,55,35,20,0,15,5,5,0
+Almudron,Foreleg,0,23,24,20,30,0,25,5,5,0
+Almudron,Foreleg,1,24,25,21,30,0,25,5,5,0
+Almudron,Hind Leg,0,25,25,20,10,0,10,5,5,0
+Almudron,Tail Base,0,55,30,35,25,0,20,10,5,0
+Almudron,Tail Tip,0,65,55,40,25,0,20,15,15,0
+Almudron,Large Mudbulb,0,100,100,100,0,0,0,0,0,0
+Almudron,Average,0,45,45,38,19,0,16,6,5,11
+Wind Serpent Ibushi,Head,0,65,70,45,20,10,10,5,25,100
+Wind Serpent Ibushi,Neck,0,35,30,25,15,5,5,5,20,0
+Wind Serpent Ibushi,Back,0,60,55,45,20,10,5,5,25,0
+Wind Serpent Ibushi,Back,1,25,25,25,15,5,5,5,15,0
+Wind Serpent Ibushi,Torso,0,30,30,25,10,5,5,5,10,0
+Wind Serpent Ibushi,Wingarm,0,35,30,35,5,5,5,0,5,0
+Wind Serpent Ibushi,Wingarm (Windsac),0,65,60,40,25,10,5,5,25,0
+Wind Serpent Ibushi,Wingarm (Windsac),1,25,25,10,15,10,5,0,15,0
+Wind Serpent Ibushi,Leg Fin,0,25,25,15,10,5,5,5,10,0
+Wind Serpent Ibushi,Tail,0,30,25,10,5,5,5,5,10,0
+Wind Serpent Ibushi,Tail Tip,0,50,45,40,25,15,15,5,35,0
+Wind Serpent Ibushi,Tail Tip,1,25,25,15,15,5,5,5,15,0
+Wind Serpent Ibushi,Chest (Windsac),0,80,80,75,15,15,15,5,25,0
+Wind Serpent Ibushi,Chest (Windsac),1,25,25,15,10,5,5,5,15,0
+Wind Serpent Ibushi,Average,0,41,39,30,14,7,6,4,17,7
+Goss Harag,Head,0,56,56,50,20,0,0,15,0,100
+Goss Harag,Head,1,60,60,55,10,0,0,15,0,120
+Goss Harag,Back,0,30,30,20,25,0,0,15,0,0
+Goss Harag,Back,1,30,30,25,20,0,0,15,0,0
+Goss Harag,Foreleg,0,51,51,35,30,0,0,15,0,0
+Goss Harag,Foreleg,1,60,65,40,10,0,0,15,0,0
+Goss Harag,Ice Clump,0,66,66,45,30,0,0,10,0,0
+Goss Harag,Ice Clump,1,66,66,45,30,0,0,10,0,0
+Goss Harag,Leg,0,24,24,15,30,0,0,5,0,0
+Goss Harag,Leg,1,24,24,20,10,0,0,5,0,0
+Goss Harag,Body,0,24,24,20,15,0,0,5,0,0
+Goss Harag,Body,1,24,24,25,10,0,0,5,0,0
+Goss Harag,???,0,24,24,20,15,0,0,5,0,0
+Goss Harag,???,1,24,24,20,10,0,0,5,0,0
+Goss Harag,Average,0,40,40,31,18,0,0,10,0,15
+Great Izuchi,Head,0,80,80,75,10,20,10,25,5,100
+Great Izuchi,Torso,0,45,45,40,10,10,10,15,5,0
+Great Izuchi,Foreleg,0,50,50,55,10,10,10,15,0,0
+Great Izuchi,Tail Base,0,55,50,35,10,15,10,20,5,0
+Great Izuchi,Tail Tip,0,75,80,75,15,20,15,25,10,0
+Great Izuchi,Average,0,61,61,56,11,15,11,20,5,20
+Thunder Serpent Narwa,Head,0,55,50,5,5,5,10,0,15,100
+Thunder Serpent Narwa,Head,1,70,75,45,5,5,15,0,20,100
+Thunder Serpent Narwa,Neck,0,35,30,10,0,0,5,0,0,100
+Thunder Serpent Narwa,Back (Charged),0,25,30,15,0,5,5,0,10,0
+Thunder Serpent Narwa,Back (Charged),1,50,45,35,5,5,10,0,15,0
+Thunder Serpent Narwa,Torso,0,20,25,5,0,0,0,0,5,0
+Thunder Serpent Narwa,Wingarm,0,35,30,10,0,5,5,0,10,0
+Thunder Serpent Narwa,Wingarm (Charged),0,45,45,15,0,0,5,0,5,0
+Thunder Serpent Narwa,Wingarm (Charged),1,70,65,45,5,5,10,0,20,0
+Thunder Serpent Narwa,Leg Fin,0,20,20,5,0,0,0,0,5,0
+Thunder Serpent Narwa,Tail,0,30,30,10,0,0,5,0,10,0
+Thunder Serpent Narwa,Tail Tip (Charged),0,35,40,15,0,0,5,0,10,0
+Thunder Serpent Narwa,Tail Tip (Charged),1,70,65,35,0,0,5,0,15,0
+Thunder Serpent Narwa,Chest (Charged),0,35,35,15,0,0,5,0,10,0
+Thunder Serpent Narwa,Chest (Charged),1,55,50,35,0,5,10,0,15,0
+Thunder Serpent Narwa,Abdomen (Thundersac),0,25,25,5,0,0,0,0,0,0
+Thunder Serpent Narwa,Abdomen (Thundersac),1,90,90,55,5,5,20,0,25,0
+Thunder Serpent Narwa,Average,0,45,44,21,1,2,6,0,11,17
+Narwa the Allmother,Head,0,40,42,5,5,5,5,0,10,100
+Narwa the Allmother,Head,1,90,92,43,5,5,10,0,15,100
+Narwa the Allmother,Neck,0,40,42,3,0,0,5,0,0,100
+Narwa the Allmother,Back (Charged),0,25,30,5,0,5,5,0,10,0
+Narwa the Allmother,Back (Charged),1,60,50,15,5,5,10,0,15,0
+Narwa the Allmother,Torso,0,40,42,5,0,0,0,0,5,0
+Narwa the Allmother,Wingarm,0,35,30,5,0,5,5,0,10,0
+Narwa the Allmother,Wingarm (Charged),0,44,40,15,0,0,5,0,5,0
+Narwa the Allmother,Wingarm (Charged),1,92,88,47,5,5,10,0,20,0
+Narwa the Allmother,Leg Fin,0,30,35,1,0,0,0,0,5,0
+Narwa the Allmother,Tail,0,40,35,5,0,0,5,0,10,0
+Narwa the Allmother,Tail Tip (Charged),0,35,40,15,0,0,5,0,10,0
+Narwa the Allmother,Tail Tip (Charged),1,95,90,45,0,0,5,0,15,0
+Narwa the Allmother,Chest (Charged),0,35,35,2,0,0,5,0,10,0
+Narwa the Allmother,Chest (Charged),1,70,65,15,0,5,10,0,15,0
+Narwa the Allmother,Abdomen (Thundersac),0,30,30,5,0,0,0,0,0,0
+Narwa the Allmother,Abdomen (Thundersac),1,100,100,55,5,5,20,0,25,0
+Narwa the Allmother,Average,0,53,52,16,1,2,6,0,10,17
+Anjanath,Snout,0,80,75,65,0,20,15,10,10,100
+Anjanath,Head,0,70,70,60,0,25,15,10,5,100
+Anjanath,Neck,0,30,30,15,0,20,15,5,5,0
+Anjanath,Wing,0,50,45,55,0,25,20,15,10,0
+Anjanath,Hind Leg,0,30,30,15,0,15,10,5,0,0
+Anjanath,Hind Leg,1,45,45,30,0,15,10,5,0,0
+Anjanath,Torso,0,30,30,45,0,15,10,5,0,0
+Anjanath,Tail,0,60,60,55,0,20,15,10,5,0
+Anjanath,Average,0,49,48,42,0,19,13,8,4,25
+Pukei-Pukei,Tongue,0,95,90,85,15,0,20,30,10,100
+Pukei-Pukei,Head,0,75,80,70,15,0,20,30,10,100
+Pukei-Pukei,Neck,0,40,35,30,5,0,10,20,5,0
+Pukei-Pukei,Torso,0,35,35,30,0,0,5,15,5,0
+Pukei-Pukei,Wing,0,50,45,40,10,0,15,25,5,0
+Pukei-Pukei,Leg,0,45,45,40,0,0,5,15,0,0
+Pukei-Pukei,Tail,0,55,50,45,10,0,15,25,5,0
+Pukei-Pukei,Average,0,56,54,48,7,0,12,22,5,28
+Kulu-Ya-Ku,Head,0,68,68,60,15,20,15,15,15,100
+Kulu-Ya-Ku,Foreleg,0,52,56,45,15,20,15,15,15,0
+Kulu-Ya-Ku,Body,0,45,45,40,15,20,15,15,15,0
+Kulu-Ya-Ku,Tail,0,55,50,35,15,20,15,15,15,0
+Kulu-Ya-Ku,Boulder,0,5,5,5,5,20,5,5,5,0
+Kulu-Ya-Ku,Boulder,0,50,50,50,15,20,15,15,15,0
+Kulu-Ya-Ku,Average,0,45,45,39,13,20,13,13,13,16
+Jyuratodus,Head,0,63,63,53,5,0,5,10,5,100
+Jyuratodus,Head,1,50,50,40,0,25,5,0,5,100
+Jyuratodus,Neck,0,43,43,43,5,0,5,10,5,0
+Jyuratodus,Neck,1,43,43,43,5,0,5,10,5,0
+Jyuratodus,Torso,0,35,35,35,10,0,5,25,5,0
+Jyuratodus,Torso,1,30,30,25,0,25,5,0,5,0
+Jyuratodus,Back,0,25,25,25,5,0,5,15,5,0
+Jyuratodus,Back,1,30,30,25,0,25,5,0,5,0
+Jyuratodus,Fin,0,25,25,25,10,0,5,20,5,0
+Jyuratodus,Fin,1,30,30,25,0,25,5,0,5,0
+Jyuratodus,Leg,0,45,45,40,15,0,5,30,5,0
+Jyuratodus,Leg,1,45,45,40,0,25,5,0,5,0
+Jyuratodus,Tail,0,55,50,45,5,0,5,10,5,0
+Jyuratodus,Tail,1,50,50,40,0,25,5,0,5,0
+Jyuratodus,Average,0,40,40,36,4,10,5,9,5,14
+Tobi-Kadachi,Head,0,48,48,45,20,30,10,0,5,100
+Tobi-Kadachi,Neck,0,48,48,45,10,20,10,0,5,50
+Tobi-Kadachi,Torso,0,45,45,35,5,15,5,0,0,0
+Tobi-Kadachi,Back,0,45,45,48,5,15,5,0,0,0
+Tobi-Kadachi,Foreleg,0,35,35,15,5,15,5,0,0,0
+Tobi-Kadachi,Hind Leg,0,30,30,10,20,30,20,0,15,0
+Tobi-Kadachi,Tail,0,65,65,55,15,20,15,0,10,0
+Tobi-Kadachi,Average,0,45,45,36,11,20,10,0,5,21
+Bazelgeuse,Head,0,60,65,25,0,5,10,15,10,100
+Bazelgeuse,Head,1,80,85,35,0,10,15,20,15,100
+Bazelgeuse,Abdomen,0,45,45,25,0,5,10,10,10,0
+Bazelgeuse,Abdomen,1,45,45,25,0,5,10,10,10,0
+Bazelgeuse,Back,0,30,30,10,0,0,5,5,5,0
+Bazelgeuse,Back,1,30,30,10,0,0,5,5,5,0
+Bazelgeuse,Leg,0,30,30,20,0,5,10,15,10,0
+Bazelgeuse,Leg,1,36,34,25,0,5,10,15,10,0
+Bazelgeuse,Wing,0,25,25,45,0,5,10,10,10,0
+Bazelgeuse,Wing,1,25,25,15,0,0,5,5,5,0
+Bazelgeuse,Tail,0,60,55,35,0,5,10,15,10,0
+Bazelgeuse,Tail,1,75,70,45,0,5,10,15,10,0
+Bazelgeuse,Average,0,45,44,26,0,4,9,11,9,16
