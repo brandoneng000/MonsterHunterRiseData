@@ -21,8 +21,9 @@ class Monster:
         return f"{self.monster_id},{self.monster_name},{self.kiranico_id}"
 
 class MonsterPart:
-    def __init__(self, monster_name, part_name, state, sever, impact, ammo, fire, water, ice, thunder, dragon, stun) -> None:
-        self.monster_name = monster_name
+    def __init__(self, part_id, monster_id, part_name, state, sever, impact, ammo, fire, water, ice, thunder, dragon, stun) -> None:
+        self.part_id = part_id
+        self.monster_id = monster_id
         self.part_name = part_name
         self.state = state
         self.sever = sever
@@ -36,7 +37,7 @@ class MonsterPart:
         self.stun = stun
 
     def __str__(self) -> str:
-        return f"{self.monster_name},{self.part_name},{self.state},{self.sever},{self.impact},{self.ammo},{self.fire},"\
+        return f"{self.part_id},{self.monster_id},{self.part_name},{self.state},{self.sever},{self.impact},{self.ammo},{self.fire},"\
                  + f"{self.water},{self.ice},{self.thunder},{self.dragon},{self.stun}"
                 
         
@@ -47,10 +48,10 @@ def main():
 
     with open("large_monster_list.csv") as file:
         for name in file:
-            monster_name = int(name.split(",")[0])
-            print(f"Starting {large_monsters[monster_name].monster_name}")
-            get_parts_data(large_monsters[monster_name].monster_id)
-            print(f"Completed {large_monsters[monster_name].monster_name}")
+            monster_id = int(name.split(",")[0])
+            print(f"Starting {large_monsters[monster_id].monster_name}")
+            get_parts_data(monster_id)
+            print(f"Completed {large_monsters[monster_id].monster_name}")
             sleep(1)
 
     with open("monster_hzv.csv", 'w') as file:
@@ -59,6 +60,7 @@ def main():
 
 
 def get_parts_data(monster_id):
+    global parts_id
     monster_kiranico_URL = URL + str(large_monsters[monster_id].kiranico_id)
     page = requests.get(monster_kiranico_URL)
 
@@ -87,10 +89,11 @@ def get_parts_data(monster_id):
                 part_name = part_name.split("</td>")[0]
             
             hit_zone_value = re.findall('> (\d*)<', monster_part_name)
-            monster_parts.append(MonsterPart(monster_name, part_name, \
+            monster_parts.append(MonsterPart(parts_id, monster_id, part_name, \
                 int(hit_zone_value[0]), int(hit_zone_value[1]), int(hit_zone_value[2]), int(hit_zone_value[3]), int(hit_zone_value[4]), \
                 int(hit_zone_value[5]), int(hit_zone_value[6]), int(hit_zone_value[7]), int(hit_zone_value[8]), int(hit_zone_value[9])))
             number_parts += 1
+            parts_id += 1
             for val in range(10):
                 average_HZV[val] += int(hit_zone_value[val])
 
@@ -101,12 +104,15 @@ def get_parts_data(monster_id):
                 break
 
             if 'Magnamalo' in monster_name and 'Tailblade' in part_name:
-                monster_parts.append(MonsterPart(monster_name, "Wrist ghost", \
+                monster_parts.append(MonsterPart(parts_id, monster_id, "Wrist ghost", \
                     0, 48, 48, 45, 0, 10, 0, 15, 0, 0))
-                monster_parts.append(MonsterPart(monster_name, "Gas pool", \
+                parts_id += 1
+                monster_parts.append(MonsterPart(parts_id, monster_id, "Gas pool", \
                     0, 63, 63, 50, 0, 5, 5, 10, 0, 0))
-                monster_parts.append(MonsterPart(monster_name, "Face demon fire", \
+                parts_id += 1
+                monster_parts.append(MonsterPart(parts_id, monster_id, "Face demon fire", \
                     0, 60, 60, 45, 0, 10, 5, 15, 0, 100))
+                parts_id += 1
                 wrist_ghost = [0, 48, 48, 45, 0, 10, 0, 15, 0, 0]
                 gas_pool = [0, 63, 63, 50, 0, 5, 5, 10, 0, 0]
                 face_demon_fire = [0, 60, 60, 45, 0, 10, 5, 15, 0, 100]
@@ -118,9 +124,10 @@ def get_parts_data(monster_id):
         pass
     
     
-    monster_parts.append(MonsterPart(monster_name, 'Average', \
+    monster_parts.append(MonsterPart(parts_id, monster_id, 'Average', \
                 int(average_HZV[0])//number_parts, int(average_HZV[1])//number_parts, int(average_HZV[2])//number_parts, int(average_HZV[3])//number_parts, int(average_HZV[4])//number_parts, \
                 int(average_HZV[5])//number_parts, int(average_HZV[6])//number_parts, int(average_HZV[7])//number_parts, int(average_HZV[8])//number_parts, int(average_HZV[9])//number_parts))
+    parts_id += 1
 
 def get_kiranico_id():
     page = requests.get(URL)
