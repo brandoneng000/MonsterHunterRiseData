@@ -7,8 +7,18 @@ from bs4 import BeautifulSoup
 import re
 
 URL = "https://mhrise.kiranico.com/data/monsters/"
-large_monsters = {}
+large_monsters = []
 monster_parts = []
+parts_id = 0
+
+class Monster:
+    def __init__(self, monster_id, monster_name, kiranico_id) -> None:
+        self.monster_id = monster_id
+        self.monster_name = monster_name
+        self.kiranico_id = kiranico_id
+
+    def __str__(self) -> str:
+        return f"{self.monster_id},{self.monster_name},{self.kiranico_id}"
 
 class MonsterPart:
     def __init__(self, monster_name, part_name, state, sever, impact, ammo, fire, water, ice, thunder, dragon, stun) -> None:
@@ -37,10 +47,10 @@ def main():
 
     with open("large_monster_list.csv") as file:
         for name in file:
-            monster_name = name.rstrip("\n")
-            print(f"Starting {monster_name}")
-            get_parts_data(monster_name)
-            print(f"Completed {monster_name}")
+            monster_name = int(name.split(",")[0])
+            print(f"Starting {large_monsters[monster_name].monster_name}")
+            get_parts_data(large_monsters[monster_name].monster_id)
+            print(f"Completed {large_monsters[monster_name].monster_name}")
             sleep(1)
 
     with open("monster_hzv.csv", 'w') as file:
@@ -48,13 +58,14 @@ def main():
             file.write(str(part) + '\n')
 
 
-def get_parts_data(monster_name):
-    monster_kiranico_URL = URL + str(large_monsters[monster_name])
+def get_parts_data(monster_id):
+    monster_kiranico_URL = URL + str(large_monsters[monster_id].kiranico_id)
     page = requests.get(monster_kiranico_URL)
 
     soup = BeautifulSoup(page.text, "html.parser")
     data = soup.find_all("tr", class_="bg-white")
 
+    monster_name = large_monsters[monster_id].monster_name
     average_HZV = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     number_parts = 0
     part_name = ""
@@ -121,15 +132,13 @@ def get_kiranico_id():
 
     with open("large_monster_list.csv") as file:
         large_monster_names = file.readlines()
-        for large_monster_name in large_monster_names:
-            large_monster_name = large_monster_name.strip()
+        for large_monster_info in large_monster_names:
+            monster = large_monster_info.split(",")
+            large_monster_name = monster[1].strip()
             for monster_URL in monster_kiranico_data:
                 if bool(re.search('"' + large_monster_name + '"', str(monster_URL))):
                     kiranico_id = re.search('/(\d*)"', str(monster_URL))[1]
-                    large_monsters[large_monster_name] = int(kiranico_id)
-
-    # for mon in large_monsters.items():
-    #     print(mon)
+                    large_monsters.append(Monster(monster[0], large_monster_name, kiranico_id))
 
 if __name__ == '__main__':
     main()
