@@ -55,6 +55,7 @@ def main():
             sleep(1)
 
     with open("monster_hzv.csv", 'w') as file:
+        file.write("part_id,monster_id,part_name,state,sever,impact,ammo,fire,water,thunder,ice,dragon,stun\n")
         for part in monster_parts:
             file.write(str(part) + '\n')
 
@@ -125,7 +126,7 @@ def get_parts_data(monster_id):
     
     
     monster_parts.append(MonsterPart(parts_id, monster_id, 'Average', \
-                int(average_HZV[0])//number_parts, int(average_HZV[1])//number_parts, int(average_HZV[2])//number_parts, int(average_HZV[3])//number_parts, int(average_HZV[4])//number_parts, \
+                0, int(average_HZV[1])//number_parts, int(average_HZV[2])//number_parts, int(average_HZV[3])//number_parts, int(average_HZV[4])//number_parts, \
                 int(average_HZV[5])//number_parts, int(average_HZV[6])//number_parts, int(average_HZV[7])//number_parts, int(average_HZV[8])//number_parts, int(average_HZV[9])//number_parts))
     parts_id += 1
 
