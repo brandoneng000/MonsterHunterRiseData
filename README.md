@@ -13,6 +13,15 @@ pip install requests
 pip install beautifulsoup4
 ```
 
+## Future
+
+- [x] Monsters
+- [ ] Weapons
+- [ ] Armor
+- [ ] Skills
+- [ ] Rampage Skills
+
+
 ## Sources
 
 - [Kiranico](https://mhrise.kiranico.com/)
