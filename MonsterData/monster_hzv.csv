@@ -1,4 +1,4 @@
-part_id,monster_id,part_name,state,sever,impact,ammo,fire,water,thunder,ice,dragon,stun
+part_id,monster_id,part_name,state,sever,impact,ammo,fire,water,ice,thunder,dragon,stun
 0,0,Head,0,70,75,65,0,15,15,20,30,100
 1,0,Neck,0,40,45,35,0,0,0,5,15,0
 2,0,Body,0,35,30,25,0,5,5,10,20,0
