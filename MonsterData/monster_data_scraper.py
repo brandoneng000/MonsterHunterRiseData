@@ -55,7 +55,7 @@ def main():
             sleep(1)
 
     with open("monster_hzv.csv", 'w') as file:
-        file.write("part_id,monster_id,part_name,state,sever,impact,ammo,fire,water,thunder,ice,dragon,stun\n")
+        file.write("part_id,monster_id,part_name,state,sever,impact,ammo,fire,water,ice,thunder,dragon,stun\n")
         for part in monster_parts:
             file.write(str(part) + '\n')
 
